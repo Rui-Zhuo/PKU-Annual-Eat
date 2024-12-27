@@ -1,5 +1,9 @@
 # PKU-Annual-Eat
 
+> **推荐使用[此网址](https://eat-at-pku.aiyu.fun/)或[此网址](https://eat.huh.moe/)。其分类和可视化做的不知道比我高到哪里去了。**
+> 
+> **仓库指路：[zhuohaoyu/PKU-Annual-Eat](https://github.com/zhuohaoyu/PKU-Annual-Eat)**
+
 一年过去了，你在白鲸食堂里花的钱都花在哪儿了？
 
 ## 项目简介
