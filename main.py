@@ -19,8 +19,8 @@ if __name__ == "__main__":
             hallticket = config["hallticket"]
     except Exception as e:
         print("账户信息读取失败，请重新输入")
-        account = input("请输入account: ")
-        hallticket = input("请输入hallticket: ")
+        account = input("请输入account: ") # 190563
+        hallticket = input("请输入hallticket: ") # 4F96A1783B934F8EB688564CA5732AB6	
         with open("config.json", "w", encoding='utf-8') as f:
             json.dump({"account": account, "hallticket": hallticket}, f, indent=4)
 
@@ -90,7 +90,7 @@ if __name__ == "__main__":
     print(summary)
     # 输出结果
     all_data = dict(sorted(all_data.items(), key=lambda x: x[1], reverse=False))
-    if len(all_data) > 50:
+    if len(all_data) > 60:
         # Get top 10 and bottom 10
         top_10 = dict(list(all_data.items())[:20])
         bottom_10 = dict(list(all_data.items())[-20:])
